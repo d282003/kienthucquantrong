@@ -1,0 +1,55 @@
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder (master)
+$ git clone https://github.com/d282003/kienthucquantrong.git
+Cloning into 'kienthucquantrong'...
+warning: You appear to have cloned an empty repository.
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder (master)
+$ ls
+kienthucquantrong/
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder (master)
+$ cd kienthucquantrong/
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
+$ git add .
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
+$ git commit "test"
+error: pathspec 'test' did not match any file(s) known to git
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
+$ git commit -m "test"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PC@DESKTOP-1DDKQ2K.(none)')
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
+$ git push
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/d282003/kienthucquantrong
+.git'
+
+PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
+$
