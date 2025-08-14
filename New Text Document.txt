@@ -52,4 +52,7 @@ error: failed to push some refs to 'https://github.com/d282003/kienthucquantrong
 .git'
 
 PC@DESKTOP-1DDKQ2K MINGW64 ~/Documents/New folder/kienthucquantrong (main)
-$
+$ sai roi thi sao 
+sao lai sai co chu kk
+
+
